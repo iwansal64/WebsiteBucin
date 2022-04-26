@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom left, #0044ff, #aa00ff);
+}
+
+h1 {
+    font-family: calibri;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+input {
+    cursor: pointer;
+    position: absolute;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+#mau {
+    left: calc(50% - 100px);
+    top: calc(50% + 50px);
+    transform: translate(-50%, -50%)
+}
+
+#tidak {
+    left: calc(50% + 100px);
+    top: calc(50% + 50px);
+    transform: translate(-50%, -50%)
+}
